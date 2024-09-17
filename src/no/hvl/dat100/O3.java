@@ -20,7 +20,7 @@ public class O3 {
 		String heltallTxt = showInputDialog("Skriv inn et heltall");
         int n = Integer.parseInt(heltallTxt);
     
-            if (n < 0) {
+            if (n <= 0) {
                 showMessageDialog(null, "Tallet er ugyldig");
             } else {
             	long fakultet = beregnFakultet(n);
